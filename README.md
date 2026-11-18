@@ -1,10 +1,10 @@
-# Lab8Web - Praktikum 8: PHP dan Database MySQL
+<img width="811" height="526" alt="image" src="https://github.com/user-attachments/assets/6d83fb48-3351-4dfa-a536-d8ff548bf91f" /># Lab8Web - Praktikum 8: PHP dan Database MySQL
 
 | | |
 |---|---|
-| **Nama** | ................ |
-| **NIM** | ................ |
-| **Kelas** | ................ |
+| **Nama** | Raihan Nabil Mas'ud |
+| **NIM** | 312510094 |
+| **Kelas** | I.25.1A |
 | **Mata Kuliah** | Pemrograman Web |
 
 ## Tujuan
@@ -40,7 +40,7 @@ Alat yang digunakan: VSCode, XAMPP (Apache, MySQL/MariaDB, PHP), dan browser. Fo
 
 Buka **XAMPP Control Panel**, lalu klik **Start** pada modul **Apache** dan **MySQL** sampai statusnya hijau (running).
 
-[Screenshot]
+<img width="811" height="526" alt="image" src="https://github.com/user-attachments/assets/a3eb8f4b-2518-41bc-8d59-4d991e62f202" />
 
 *Gambar 1. XAMPP Control Panel dengan Apache dan MySQL berjalan*
 
@@ -48,7 +48,7 @@ Buka **XAMPP Control Panel**, lalu klik **Start** pada modul **Apache** dan **My
 
 Setelah Apache dan MySQL berjalan, buka browser dan akses `http://localhost/phpmyadmin/`.
 
-[Screenshot]
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/8bad0a5a-2488-4b62-8d76-5fe5cd15d4af" />
 
 *Gambar 2. Halaman phpMyAdmin*
 
@@ -76,7 +76,7 @@ Dijalankan melalui tab **SQL** di phpMyAdmin:
 CREATE DATABASE latihan1;
 ```
 
-[Screenshot]
+<img width="444" height="431" alt="image" src="https://github.com/user-attachments/assets/6b05f139-521d-491c-80e6-c0c2308b82f7" />
 
 *Gambar 3. Database `latihan1` berhasil dibuat*
 
@@ -98,11 +98,11 @@ CREATE TABLE data_barang (
 
 Kolom `id_barang` menjadi primary key dengan auto increment sehingga nilainya terisi otomatis.
 
-[Screenshot]
+<img width="653" height="555" alt="image" src="https://github.com/user-attachments/assets/40bf5976-f1da-43b3-90ce-22ed071bfc46" />
 
 *Gambar 4. Perintah CREATE TABLE di phpMyAdmin*
 
-[Screenshot]
+<img width="940" height="511" alt="image" src="https://github.com/user-attachments/assets/917396e0-6a51-44fb-abe6-05d17987be7a" />
 
 *Gambar 5. Struktur tabel `data_barang`*
 
@@ -115,7 +115,7 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
 
-[Screenshot]
+<img width="940" height="201" alt="image" src="https://github.com/user-attachments/assets/b641a545-892c-4817-9a30-1ac00d572c95" />
 
 *Gambar 6. Data barang pada tabel `data_barang`*
 
@@ -147,7 +147,7 @@ if ($conn == false)
 
 Untuk menguji koneksi, tanda komentar pada `echo "Koneksi berhasil"` dihapus sementara lalu file dibuka di browser.
 
-[Screenshot]
+<img width="772" height="156" alt="image" src="https://github.com/user-attachments/assets/62226d4a-aba4-4e32-8803-ed0568fbdf76" />
 
 *Gambar 7. Hasil tes koneksi: "Koneksi berhasil"*
 
@@ -178,7 +178,7 @@ $result = mysqli_query($conn, $sql);
 <?php endwhile; ?>
 ```
 
-[Screenshot]
+<img width="940" height="249" alt="image" src="https://github.com/user-attachments/assets/ecb1cadb-b2bc-49cf-a2ad-bbc86882f89b" />
 
 *Gambar 8. Tampilan halaman index (daftar data barang)*
 
@@ -201,11 +201,11 @@ mysqli_stmt_execute($stmt);
 header('location: index.php');
 ```
 
-[Screenshot]
+<img width="940" height="267" alt="image" src="https://github.com/user-attachments/assets/25647741-4942-4719-ad17-bb80462a506a" />
 
 *Gambar 9. Form Tambah Barang*
 
-[Screenshot]
+<img width="940" height="274" alt="image" src="https://github.com/user-attachments/assets/d444098d-d253-4bf7-a3bc-f37abf8cb737" />
 
 *Gambar 10. Data baru tampil di halaman index*
 
@@ -223,11 +223,11 @@ mysqli_stmt_execute($stmt);
 header('location: index.php');
 ```
 
-[Screenshot]
+<img width="940" height="257" alt="image" src="https://github.com/user-attachments/assets/5b414f23-fc45-4160-8047-21eb88ee3a62" />
 
 *Gambar 11. Form Ubah Barang*
 
-[Screenshot]
+<img width="940" height="268" alt="image" src="https://github.com/user-attachments/assets/2646f148-32d2-4055-8324-de125efaac41" />
 
 *Gambar 12. Data berubah di halaman index setelah diedit*
 
@@ -249,11 +249,11 @@ exit;
 ?>
 ```
 
-[Screenshot]
+<img width="940" height="272" alt="image" src="https://github.com/user-attachments/assets/8912f881-1238-417e-ba0e-27cce71b3b58" />
 
 *Gambar 13. Konfirmasi sebelum menghapus data*
 
-[Screenshot]
+<img width="940" height="230" alt="image" src="https://github.com/user-attachments/assets/cdc37331-4843-49ee-9107-0542382f11be" />
 
 *Gambar 14. Halaman index setelah data dihapus*
 
