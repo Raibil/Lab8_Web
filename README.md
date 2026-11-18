@@ -1,5 +1,3 @@
-<img width="811" height="526" alt="image" src="https://github.com/user-attachments/assets/6d83fb48-3351-4dfa-a536-d8ff548bf91f" /># Lab8Web - Praktikum 8: PHP dan Database MySQL
-
 | | |
 |---|---|
 | **Nama** | Raihan Nabil Mas'ud |
